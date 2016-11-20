@@ -17,6 +17,7 @@
   - To simulate pressing left Crtl, left Alt and t -buttons simultaneously use sequence [128+130+116]
   - To add 1000ms delay use sequence [DEL1000]
   - To actually use [ or \ character as input escape it with backslash. \[
+  - Key codes may be found from Arduino reference: https://www.arduino.cc/en/Reference/KeyboardModifiers or from any ascii table (e.g. http://www.asciitable.com/ )
 
   SD module pinout:
   MOSI - pin 11
